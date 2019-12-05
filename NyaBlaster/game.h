@@ -1,5 +1,5 @@
 #include "bitmaps.h"
-#include "Object.cpp"
+#include "Object.h"
 
 enum class GameState {Mainmenu, Initgame ,Gameplay, Gameover};
 

@@ -1,5 +1,5 @@
 #include <Arduboy2.h>
-#include "game.cpp"
+#include "game.h"
 Arduboy2 ard;
 Sprites sprites;
 
