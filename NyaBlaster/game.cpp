@@ -4,8 +4,8 @@
 
 const uint8_t full = 16;
 const uint8_t Squares[] = {0,1,4,9,16,25,36,49,64,100,121,144,169,196,225,256};
-Object * Objects[MaxObjects]; 
-uint8_t NumberOfObjects = 0;
+Object * Game::Objects[MaxObjects]; 
+uint8_t Game::NumberOfObjects = 0;
 
 uint8_t Sqrt(uint8_t n){
   uint8_t Pointer = full / 2;
